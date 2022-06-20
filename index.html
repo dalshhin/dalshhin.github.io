@@ -1,2 +1,31 @@
-salam
-<h1>Hi</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameBoard" width="400" height="400"></canvas>
+        <div id="scoreText">0</div>
+        <section>
+            <br>
+            <button id="UBtn" onclick="moveup()" style="text-align:center;">UP</button>
+            <br>
+            <button id="LBtn" onclick="moveleft()"style="margin-right: 100px;">LEFT</button>
+            <button id="RBtn" onclick="moveright()">RIGHT</button>
+            <br>
+            <button id="DBtn" onclick="movedown()" style="text-align:center;">DOWN</button>
+        </section>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <button id="resetBtn">Reset</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
