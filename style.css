@@ -1,0 +1,26 @@
+#gameContainer{
+    text-align: center;
+}
+#gameBoard{
+    border: 3px solid;
+}
+#scoreText{
+    font-family: "Permanent Marker",cursive;
+    font-size: 100px;
+}
+#resetBtn{
+    font-family: "Permanent Marker",cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+section button{
+    font-family: "Permanent Marker",cursive;
+    font-size: 18px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    cursor: pointer;
+}
